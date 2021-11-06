@@ -34,10 +34,15 @@ int main()
 {
 	int a,b;
 	cout<<"Welcome to our calculator!"<<std::endl;
-	cout<<"Please enter a & b: "<<endl;
+	cout<<"Please enter the numbers: "<<endl;
 	cin>>a>>b;
 	char oper;
-	cout<<"Enter an operator"<<endl;
+	cout<<"Which operation do you wish to perform?"<<endl;
+	cout<<"(1) Sum (+)"<<endl;
+    cout<<"(2) Subtract (-)"<<endl;
+    cout<<"(3) Multiply (*)"<<endl;
+    cout<<"(4) Divide (/)"<<endl;
+    cout<<"(5) Mean (mean)"<<endl;
 	cin >> oper;
 				        
 	switch(oper){
@@ -47,6 +52,16 @@ int main()
 		case '-':
 			subtract(a,b);
 			break;
+		case '*':
+			multiply(a,b);
+			break;
+		case '/':
+			divide(a,b);
+			break;
+		case 'm':
+			mean(a,b);
+			break;			
+
 	}
 					    
 					    
