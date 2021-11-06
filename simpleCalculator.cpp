@@ -1,6 +1,10 @@
 
 #include<iostream>
 
+using std::cout;
+using std::cin;
+using std::endl;
+
 double multiply(double a, double b){
 	cout<<"The product is: "<< a*b<< endl;
 	return a*b;
@@ -16,9 +20,7 @@ double mean(double a, double b){
 	return (a+b)/2;
 }
 
-using std::cout;
-using std::cin;
-using std::endl;
+
 double add(double a, double b)
 {
 	cout<<"The sum is: "<< a+b<< endl;
@@ -42,7 +44,7 @@ int main()
     cout<<"(2) Subtract (-)"<<endl;
     cout<<"(3) Multiply (*)"<<endl;
     cout<<"(4) Divide (/)"<<endl;
-    cout<<"(5) Mean (mean)"<<endl;
+    cout<<"(5) Mean (m)"<<endl;
 	cin >> oper;
 				        
 	switch(oper){
