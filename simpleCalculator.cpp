@@ -1,5 +1,15 @@
 
 #include<iostream>
+double multiply(double a, double b)
+{
+	cout<<"The product is: "<< a*b<< endl;
+	return a*b;
+}
+
+double divide(double a, double b)
+{	cout<<"The division is: " << a/b<<endl;
+	return a/b;
+}
 
 using std::cout;
 using std::cin;
