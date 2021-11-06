@@ -1,4 +1,14 @@
 #include<iostream>
+double multiply(double a, double b)
+{
+	cout<<"The product is: "<< a*b<< endl;
+	return a*b;
+}
+
+double divide(double a, double b)
+{	cout<<"The division is: " << a/b<<endl;
+	return a/b;
+}
 
 double add(double a, double b)
 {
