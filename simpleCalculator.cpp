@@ -1,17 +1,39 @@
+
 #include<iostream>
 
+using std::cout;
+using std::cin;
+using std::endl;
 double add(double a, double b)
 {
+	cout<<"The sum is: "<< a+b<< endl;
 	return a+b;
 }
 
 double subtract(double a, double b)
-{
+{	cout<<"The difference is: " << a-b<<endl;
 	return a-b;
 }
 
 int main()
 {
-    std::cout<<"Hello Calculator"<<std::endl; 
-    return 0;
+	int a,b;
+	cout<<"Welcome to our calculator!"<<std::endl;
+	cout<<"Please enter a & b: "<<endl;
+	cin>>a>>b;
+	char oper;
+	cout<<"Enter an operator"<<endl;
+	cin >> oper;
+				        
+	switch(oper){
+		case '+':
+			add(a,b);
+			break;
+		case '-':
+			subtract(a,b);
+			break;
+	}
+					    
+					    
+	return 0;
 }
