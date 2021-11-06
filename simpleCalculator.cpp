@@ -1,14 +1,19 @@
 
 #include<iostream>
-double multiply(double a, double b)
-{
+
+double multiply(double a, double b){
 	cout<<"The product is: "<< a*b<< endl;
 	return a*b;
 }
 
-double divide(double a, double b)
-{	cout<<"The division is: " << a/b<<endl;
+double divide(double a, double b){	
+	cout<<"The division is: " << a/b<<endl;
 	return a/b;
+}
+
+double mean(double a, double b){
+	cout<<"The mean is: "<<(a+b)/2<<endl;
+	return (a+b)/2;
 }
 
 using std::cout;
