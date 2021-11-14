@@ -36,7 +36,7 @@ int main()
 {
 	int a,b;
 	cout<<"Welcome to our calculator!"<<std::endl;
-	cout<<"Please enter the numbers: "<<endl;
+	cout<<"Please enter the numbers: ";
 	cin>>a>>b;
 	char oper;
 	cout<<"Which operation do you wish to perform?"<<endl;
