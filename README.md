@@ -1,3 +1,3 @@
-# Adv_Prog_WS1
+Imported from Gitlab repository as a demo for other to-be included repositories
 
-calculator
+A simple calculator
